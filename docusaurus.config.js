@@ -87,6 +87,12 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      announcementBar: {
+        id: 'wip',
+        content: '⚠️ Querycord, along with these docs, are very much a work in progress. Don\'t use it yet. Please.',
+        backgroundColor: '#eed202',
+        isCloseable: false
+      }
     }),
 };
 
